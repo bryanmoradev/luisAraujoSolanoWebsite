@@ -1,0 +1,517 @@
+/* fonts */
+/* font-family: 'Gafata', sans-serif;
+font-family: 'Livvic', sans-serif;
+font-family: 'Telex', sans-serif; */
+
+/* body */
+#body1{
+    background-color: khaki;
+}
+
+/* var-links-redes */
+.var-redes{
+    background-color: khaki ;
+    height: 50px;
+    margin-bottom: 15px;  
+  
+}
+
+#social-icon{
+    width: 80%;
+    position: relative;
+    top: -3px;
+    transition: all 0.2s ease-in;
+}
+#social-icon:hover{ 
+    background-color:#4343bc;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+#social-icon-youtube{
+    width: 100%;
+    position: relative;
+    top: -3px;
+    transition: all 0.2s ease-in;
+}
+#social-icon-youtube:hover{
+    background-color: red;
+    border-radius: 20px;
+    padding: 5px;
+}
+#social-icon-whatsapp{
+    width: 90%;
+    position: relative;
+    top: -1px;
+    transition: all 0,2s ease-in;
+}
+#social-icon-whatsapp:hover{
+    background-color:green  ;
+    border-radius: 20px;
+    padding: 6px;
+}
+
+
+
+/* iconos */
+i{
+    font-size: 2rem;
+   
+    
+}
+
+
+/* navbar */
+
+#logo-text{
+    /* font-family: 'Gafata', sans-serif; */
+    font-family: 'Livvic', sans-serif;
+    font-size: 1.5rem;
+    color:rgb(9, 9, 13);
+
+}
+
+#botones{
+    font-family: 'Gafata', sans-serif;  
+    font-size: 1.5rem;
+    position: relative;
+    top: 20px;
+    padding-left: 30px;
+}
+
+.navbar-collapse{
+    align-items: center;
+}
+
+/* adaptable responsivo */
+
+@media screen and (max-width: 470px) {
+    .navbar-brand{
+        display: none; 
+    }
+}
+/* seccion hero */
+#hero-1{
+    background-color:black;
+    /* border: chartreuse;
+    border-style: solid;
+    border-width: 5px; */
+
+}
+
+#caja-1{
+    margin: 10px;
+}
+   
+.inicio{
+    font-family: 'Livvic', sans-serif;
+    font-size: 1.5rem;
+    color: #78692c;
+    padding: 10px;
+    margin:20px
+}
+#titulo-inicio{
+    color: rgb(113, 158, 40);
+}
+
+#text-inicio{
+    position: relative;
+    text-align: right;
+    margin: 20px;
+    padding: 20px;
+    color: #fff;
+
+}
+
+/* .row{
+    border: rgb(0, 57, 179);
+    border-style: solid;
+    border-width: 5px;
+} */
+/* .col{
+    border: rgb(248, 13, 197);
+    border-style: solid;
+    border-width: 5px; */
+
+
+/* #hero-2{
+   box-shadow: 0, 0, 20px, 7px rgba(0, 0, 0, 0.5);
+ 
+   border-radius: 10px;
+} */
+
+/* #hero-3{
+    background-color: darkgreen;
+} */
+
+#parrafo-experiencia-actualidad{
+    color: black; 
+    font-size: 1.7rem;
+    text-align: center;
+    
+}
+
+#box-shadow{
+    
+    border-radius: 10px;
+    position: relative;
+    top: 15px;
+    text-align: center;
+    font-size: 1.7rem;
+   color: black;
+}
+
+#parrafo-experiencia{
+    text-align: center;
+    font-size: 1.7rem;
+   
+}
+
+
+
+
+
+/* galaeria */
+
+#carouselExampleCaptions{
+    height: 38rem;
+}
+
+.carousel-inner{
+    background-color: black;
+    padding: 10px;
+}
+
+.carousel-item img{
+    max-width: 800px;
+    max-height: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+@media screen and (max-width: 200px){
+    #foto-perfil{
+        max-width:600px
+    }
+}
+
+#about-luis{
+  font-size: 1.5rem;
+  text-align:right;
+
+}
+.carousel-caption{
+    position: relative;
+    top: 10px;
+}
+
+/* servicios */
+
+#about-text{
+    text-align: right;
+}
+
+.container-servicios .row{
+    background-color: black;
+    /* border-color: lawngreen; */
+    /* border-style: solid;
+    border-width: 5px; */
+    color:bisque;
+    /* padding: 50px; */
+    height: 680px;
+    margin: 20px;
+    font-family: 'Telex', sans-serif;
+    font-size: 1.5rem;
+}
+
+.container-servicios .col-sm-8{
+    /* border-color: lawngreen; */
+    /* border-style: solid;
+    border-width: 5px; */
+    padding: 10px;
+    /* margin: 20px; */
+}
+
+.container-servicios .col-sm-4{
+    /* border-color: lawngreen; */
+    /* border-style: solid;
+    border-width: 5px; */
+    padding: 10px;
+    /* margin: 20px; */
+}
+
+.container-servicios .col-sm-6{
+    /* border-color: lawngreen; */
+    border-style: solid;
+    border-width: 5px;
+    padding: 10px;
+}
+
+
+#icon-tienda{
+    width: 4rem;
+    
+}
+#titulo-tienda{
+    font-size: 3rem;
+    padding: 10px;
+    font-weight: bold;
+}
+
+
+/* testimonios */
+/* references */
+#references
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding: auto;
+}
+#references .col-md-4
+{
+    padding: 10px 30px;
+}
+#references img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: -80px;
+    margin-right: 0px;
+    border: 2px solid rgb(207, 246, 15);
+    margin-bottom: 0px;
+    margin-top: -30px;
+}
+.review
+{
+   font-size: 16px;
+   padding: 10px 10px 10px 30px; 
+   border-radius: 10px;
+   box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.review .fa fa-twitter
+{
+    color: #013f7e;
+
+}
+.references span
+{
+    color: #013f7e;
+    
+}
+.references h1
+{
+    margin-bottom: 20px;
+    color: darkgoldenrod;
+}
+
+/* inicio */
+
+
+#perfil-1{
+    max-height: 500px;
+}
+
+#perfil-2{
+    max-height: 800px;
+    position: center;
+    
+    margin: 20px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+#perfil-3{
+    max-height: 500px;
+    position: relative;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;}
+
+
+#perfil-4{
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+
+
+/* references */
+
+#titulo-testimonios{
+    margin-bottom:40px;
+
+}
+
+
+
+#references
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding: auto;
+    background-color: khaki;
+}
+#references .col-md-4
+{
+    padding: 10px 30px;
+}
+#references img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid rgb(207, 246, 15);
+    margin-bottom: 0px;
+    margin-top: -30px;
+}
+.review
+{
+   font-size: 16px;
+   padding: 10px 10px 10px 30px; 
+   border-radius: 10px;
+   box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.review .fa fa-twitter
+{
+    color: #013f7e;
+
+}
+.references span
+{
+    color: #013f7e;
+    
+}
+.references h1
+{
+    margin-bottom: 20px;
+    color: darkgoldenrod;
+}
+
+/* seccion mapa */
+
+#caja-mapa{
+    align-items: center;
+   
+    margin-bottom: 30px;
+
+    padding: 20px;
+    
+   
+    
+    
+}
+#titulo-ubicacion{
+    font-size: 'Livvic', sans-serif;
+    font-size: 2.5rem;
+}
+#mapa{
+    position: relative;
+    border: #e48507;
+    border-width: 5px;
+    border-style: solid;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+   
+}
+
+
+
+/* FOOTER */
+#footer
+{
+    padding: 30px;
+    background-color: #315d3f;
+    color: #bea724;
+}
+#footer p
+{
+    text-align: left;
+}
+#footer h3
+{
+    
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+#footer h4
+{
+    text-align: left;
+}
+
+/* galeria */
+
+.carousel-inner{
+    background-color: black;
+}
+
+.carousel-item img{
+    max-width: 800px;
+    max-height: 600px;
+    margin: 0 auto;
+}
+
+/* video y tienda naturista oriente */
+#video-tienda
+{
+    background-color: khaki;
+    color: rgb(0, 0, 0);
+    padding-top: 15px;
+    padding-bottom: 20px;
+    font-family: 'Livvic', sans-serif;  
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+.about .segundoInf
+{
+    padding-top: au;
+}
+#parrafo-experiencia{
+    margin-top: 30px;
+}
+
+
+#tienda-naturista-oriente{
+    margin-top: 80px;
+    
+}
+#video-tienda h3
+{
+    margin: 20px auto;
+    font-family: 'Telex', sans-serif;
+    font-size: 3rem;
+    padding: 20px;   
+}
+
+
+/* Responsive medias */
+@media (max-width:500px){
+    #text-inicio{text-align: justify;
+                 padding: 10px;  
+                  margin: 0;  }
+}
+
+@media (max-width:500px){
+    .imagenes{width: 250px;}
+}
+
+@media (max-width:1230px){
+    #video-responsive{width: 350px;
+    height: 350px;}
+}
+
+@media (max-width:500px){
+    .parrafo-general{font-size: 25px;}
+}
+@media (max-width: 500px){
+    .titulo-inicio{font-size:40px}
+}
+@media (max-width:1280px){
+    #mapa{width: 100%;}
+}
